@@ -1,0 +1,133 @@
+.login-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .login-page-container {
+    flex-direction: row;
+  }
+}
+.sm-login-page-logo {
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .sm-login-page-logo {
+    display: none;
+  }
+}
+.sm-login-logo {
+  width: 216px;
+  height: 216px;
+}
+.lg-login-page-logo {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-login-page-logo {
+    display: block;
+    width: 50%;
+  }
+}
+.lg-login-logo {
+  width: 100%;
+  height: 100vh;
+}
+.login-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .login-content-container {
+    padding: 20px;
+    margin: auto;
+  }
+}
+
+.login-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .login-icon {
+    margin-bottom: 30px;
+  }
+}
+
+.login-book-icon {
+  width: 104px;
+  height: 28px;
+}
+@media screen and (min-width: 768px) {
+  .login-book-icon {
+    width: 141px;
+    height: 48px;
+  }
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.username-label {
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5a7184;
+}
+.username-input {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  height: 45px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.userpassword-label {
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #5a7184;
+}
+.userpassword-input {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #c3cad9;
+  border-radius: 8px;
+  height: 45px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login-btn {
+  background: #0284c7;
+  border-radius: 8px;
+  height: 45px;
+  width: 300px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid #0284c7;
+  cursor: pointer;
+  margin-top: 10px;
+}

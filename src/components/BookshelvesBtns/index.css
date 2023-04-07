@@ -1,0 +1,32 @@
+.book-btn-item {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.active-btn {
+  background: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #f8fafc;
+  cursor: pointer;
+  height: 40px;
+  min-width: 100px;
+}
+.inactive-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  height: 40px;
+  min-width: 100px;
+  cursor: pointer;
+  border-radius: 8px;
+}

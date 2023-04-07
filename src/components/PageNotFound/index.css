@@ -1,0 +1,38 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+}
+.notfound-img {
+  width: 250px;
+}
+.notfound-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #334155;
+}
+.notfound-para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #475569;
+}
+.notfound-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  background: #0284c7;
+  border-radius: 12px;
+  height: 40px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}

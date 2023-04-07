@@ -1,0 +1,41 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #e5e5e5;
+  min-height: 200px;
+  margin-top: auto;
+}
+@media screen and (min-width: 768px) {
+  .footer-container {
+    min-height: 200px;
+  }
+}
+.footer-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+.footer-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.footer-icon {
+  width: 30px;
+  height: 30px;
+}
+.footer-title {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #3d3c3c;
+}
+@media screen and (min-width: 768px) {
+  .footer-title {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,57 @@
+.home-page-content-continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #e5e5e5;
+  margin: 10px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .home-page-content-continer {
+    min-height: 250px;
+  }
+}
+.home-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .home-title {
+    font-size: 40px;
+  }
+}
+.home-para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .home-para {
+    width: 50%;
+    font-size: 20px;
+  }
+}
+.find-books-btn {
+  text-decoration: none;
+  background: #0284c7;
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #f8fafc;
+  text-align: center;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

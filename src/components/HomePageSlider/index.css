@@ -1,0 +1,116 @@
+.home-page-slider-continer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  padding: 10px;
+}
+.home-slider-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1e293b;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .home-slider-title {
+    font-size: 24px;
+  }
+}
+.home-slider-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.sliders {
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .sliders {
+    padding: 40px;
+  }
+}
+.slider-img {
+  width: 146px;
+  height: 99px;
+  border-radius: 2px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .slider-img {
+    width: 250px;
+    height: 224px;
+    border-radius: 4px;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+.book-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .book-title {
+    font-size: 24px;
+  }
+}
+
+.book-author {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .book-author {
+    font-size: 14px;
+  }
+}
+.slider-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.failure-para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+}
+.try-again-btn {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9.33333px;
+  color: #ffffff;
+  background: #0284c7;
+  border-radius: 8px;
+  height: 40px;
+  width: 100px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.slider-link {
+  text-decoration: none;
+}

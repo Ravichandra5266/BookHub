@@ -1,0 +1,150 @@
+.books-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 10px;
+  background-color: #e5e5e5;
+}
+.books-flex-conatiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 300px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 768px) {
+  .search-container {
+    display: none;
+  }
+}
+.lg-search-container {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .lg-search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    border: 1px solid #cbd5e1;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: auto;
+  }
+}
+.search-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #94a3b8;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  width: 100%;
+  background-color: transparent;
+}
+.search-icon {
+  padding-right: 10px;
+}
+.title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.books-btn-items-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.each-book-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.book-btn {
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #f8fafc;
+  background: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 8px;
+  height: 30px;
+  min-width: 80px;
+}
+.books-loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.show-books-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #334155;
+  text-align: center;
+}
+.books-list-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .books-list-items-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.empty-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emp-img {
+  height: 176px;
+  width: 257px;
+}
+.emp-para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475569;
+  text-align: center;
+}
+.search-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
